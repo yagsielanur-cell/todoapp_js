@@ -1,0 +1,76 @@
+                                                                        ""
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(183, 158, 37) !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+    
+}
+
+.container {
+    background: rgb(149, 219, 162);
+    width: 90%;
+    max-width: 400px; 
+    padding: 20px;
+    border-radius: 30px; 
+    box-shadow: 5 4px 10px rgba(124, 203, 93, 0.578);
+    margin-left: 400px;
+    border-color: #053605;
+
+     justify-content: center;
+    
+}
+
+h1 { text-align: center; color: #ffffff;  font-style: oblique; font-weight: 600 ; }
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #053605;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+
+#actionBtn { background-color: #1bbc41; color: white; font-style: italic; font-size: large; }
+#actionBtn:hover { background-color: #218838; }
+
+ul { list-style: none; padding: 0; }
+
+li {
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(229, 15, 15);
+    opacity: 0.6;
+}
+
+
+.edit-btn { background-color: #fee523; margin-right: 5px; }
+.delete-btn { background-color: #ed0018; color: white; }
